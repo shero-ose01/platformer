@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://eehogquy713u"]
+
+[ext_resource type="PackedScene" uid="uid://cx8pd8rfk0wry" path="res://Terrain/test_terrain.tscn" id="1_ihbi1"]
+[ext_resource type="PackedScene" uid="uid://b5xvt6fwnamng" path="res://Player/Scenes/player.tscn" id="2_3jubs"]
+
+[node name="root" type="Node"]
+
+[node name="Floor" parent="." instance=ExtResource("1_ihbi1")]
+position = Vector2(973.99994, 678)
+scale = Vector2(100, 1)
+collision_layer = 255
+
+[node name="Player" parent="." instance=ExtResource("2_3jubs")]
+position = Vector2(975, 512)
+scale = Vector2(10, 10)
