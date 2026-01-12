@@ -12,4 +12,4 @@ collision_layer = 255
 
 [node name="Player" parent="." instance=ExtResource("2_3jubs")]
 position = Vector2(975, 512)
-scale = Vector2(10, 10)
+scale = Vector2(5, 5)
