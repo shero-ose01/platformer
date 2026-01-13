@@ -100,8 +100,8 @@ public partial class Player : CharacterBody2D
 		{
 			if (Mathf.Abs(inputDirection.X) > 0)
 			{
-				inputDirection.Y = -_jumpStrength * 0.75f * _jumpStrengthFactor;
-				inputDirection.X *= 2f * _jumpStrengthFactor;
+				inputDirection.Y = -_jumpStrength * 0.6f * _jumpStrengthFactor;
+				inputDirection.X *= 2.5f * _jumpStrengthFactor;
 			}
 			else
 				inputDirection.Y = -_jumpStrength * _jumpStrengthFactor;
